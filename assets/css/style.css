@@ -709,3 +709,105 @@ body {
 .frens-data-count span{
     margin-right: 0.25rem;
 }
+
+
+
+
+
+/* earn styles */
+.earn {
+    overflow-y: scroll!important;
+    background: linear-gradient(0deg, rgba(241,158,54,1) 2%, rgb(0, 0, 0) 45%);
+    background: linear-gradient(0deg, rgba(157,101,30,1) 5%, rgba(0,0,0,1) 45%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #ffffff;
+    padding-bottom: 4rem;
+}
+
+.earn-more {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.earn-more img {
+    margin-bottom: 1.5rem;
+}
+
+.earn-more h3 {
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+/* login styles */
+
+.login-page {
+    overflow-y: scroll!important;
+    background: linear-gradient(0deg, rgba(241,158,54,1) 2%, rgb(0, 0, 0) 45%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #ffffff;
+    padding-bottom: 4rem;
+}
+
+.login-coins,
+.login-page-detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-page-detail  {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #c1c1c1;
+}
+.login-coins-count {
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+.login-form {
+    margin-top: 3rem;
+    padding: 0 2rem;
+}
+.login-form form {
+    padding: 2rem;
+    border-radius: 15px;
+    background-color: rgba(218, 218, 218, 0.2);
+    border: 2px solid rgba(218, 218, 218, 0.02);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.login-form form label {
+    margin-bottom: 0.25rem;
+}
+.login-form form input {
+    outline: none;
+    background-color: rgba(218, 218, 218, 0.2);
+    border: 2px solid rgba(218, 218, 218, 0.02);
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.submit-button {
+    border: none;
+    outline: none;
+    margin-top: 0.75rem;
+    background: linear-gradient(83deg, rgba(255,184,95,1) 3%, rgba(241,158,54,1) 28%, rgba(255,142,2,1) 91%);
+}

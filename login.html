@@ -10,7 +10,7 @@
 
     <link rel="icon" type="image/x-icon" href="./assets/favicon/favicon.ico">
 </head>
-<body class="earn">
+<body class="login-page">
 
     <div class="haeder">
         <a href="/">
@@ -22,15 +22,38 @@
         <!-- <h1>Notcoin</h1> -->
     </div>
 
-    <div class="earn-more">
-        <img src="./assets/images/golden.png" width="80px">
-        <h3>Earn more coins</h3>
+    <div class="login-coins">
+        <img src="./assets/images/coin.png" width="50px">
+        <span class="login-coins-count"></span>
     </div>
 
-    <div class="invite-bonus-box">
-        
+    <div class="login-page-detail">
+        <span>Sign up to save your rank and coins.</span>
     </div>
-    
+
+    <div class="login-form">
+        <form action="#">
+            <label for="name">name</label>
+            <input type="text" name="name" id="name">
+
+            <label for="email">email</label>
+            <input type="email" name="email" id="email">
+
+            <label for="password">password</label>
+            <input type="password" name="password" id="password">
+
+            <label for="confrim">confirm password</label>
+            <input type="password" name="confirm" id="confirm">    
+            
+            <input class="submit-button" type="button" value="submit">
+        </form>
+    </div>
+
+    <script>
+        let coins = localStorage.getItem('coins')
+        document.querySelector('.login-coins-count').textContent = coins;
+    </script>
+
     <script src="./assets/js/charge.js"></script>
 </body>
 </html>

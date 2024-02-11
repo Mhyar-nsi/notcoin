@@ -3,14 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 a {
     text-decoration: none;
 }
 a:active {
     color: rgba(241,158,54,1);
 }
-
 html {
     font-family: sans-serif;
 }
@@ -19,7 +17,6 @@ html {
     -webkit-user-select: none;
     user-select: none;
 }
-
 body {
     overflow-y: hidden;
     background: radial-gradient(circle, rgba(209,213,223,1) 0%, rgba(123,130,149,1) 15%, rgb(0, 0, 0) 75%);
@@ -76,11 +73,9 @@ body {
     flex-direction: column;
     margin-left: 0.75rem;
 }
-
 .name {
     color: #ffffff;
 }
-
 .user-rank {
     font-size: 0.75rem;
     margin-top: 0.25rem;
@@ -93,7 +88,6 @@ body {
     align-items: center;
     margin-top: 2.25rem;
 }
-
 .rank-container {
     margin-top: 1rem;
     margin-bottom: 2rem;
@@ -102,13 +96,11 @@ body {
     align-items: center;
     color: #ffffff;
 }
-
 .rank-items {
     display: flex;
     align-items: center;
     font-size: 1.25rem;
 }
-
 .rank-items h3{
     margin-right: 0.5rem;
 }
@@ -123,13 +115,10 @@ body {
     margin-right: 1rem;
     width: 50px;
 }
-
 .coin-count-container h1 {
     color: #ffffff;
     font-size: 3.5rem;
 }
-
-
 .coin-container {
     position: relative;
     margin-top: 1.5rem;
@@ -137,19 +126,16 @@ body {
     display: flex;
     justify-content: center;
 }
-
 .coin-container span {
     position: absolute;
     z-index: 999;
     font-size: 2rem;
     color: #ffffff;
 }
-
 #coin {
     transition: .1s;
     transform-style: preserve-3d;
 }
-
 .menu-container {
     margin-top: 2.25rem;
     width: 90%;
@@ -167,7 +153,6 @@ body {
     display: flex;
     flex-direction: column;
 }
-
 .power-count span {
     color: #ffffff;
     font-weight: bold;
@@ -177,7 +162,6 @@ body {
     color: #d7d7d798!important;
     font-size: 0.75rem!important;
 }
-
 .menu-bottuns {
     width: 67%;
     padding: 1rem 0.25rem;
@@ -226,31 +210,7 @@ body {
     border-radius: 30px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* boost page styles */
-
 .boost {
     overflow-y: scroll!important;
     background: linear-gradient(0deg, rgba(241,158,54,1) 2%, rgb(0, 0, 0) 45%);
@@ -260,7 +220,6 @@ body {
     color: #ffffff;
     padding-bottom: 4rem;
 }
-
 .user-balance {
     display: flex;
     flex-direction: column;
@@ -268,12 +227,10 @@ body {
     align-items: center;
     padding-bottom: 3rem;
 }
-
 .balance-title {
     color: #c1c1c1;
     margin-bottom: 1.5rem;
 }
-
 .balance-coins {
     display: flex;
     justify-content: center;
@@ -282,32 +239,26 @@ body {
     font-size: 3.5rem;
     font-weight: bold;
 }
-
 .balance-coins img {
     margin-right: 0.75rem;
 }
-
 .balance-guid {
     color: rgba(185,103,0,1);
     font-weight: 700;
 }
-
 .free-boosts {
     padding: 0 1rem;
 }
-
 .free-boosts-title {
     margin-bottom: 0.5rem;
     padding: 0 0.3rem;
 }
-
 .free-boosts-buttons {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
 }
-
 .free-boost-button {
     cursor: pointer;
     display: flex;
@@ -326,31 +277,25 @@ body {
     flex-direction: column;
     justify-content: center;
 }
-
 .m-r {
     margin-right: 0.75rem;
 }
-
 .m-l {
     margin-left: 0.75rem;
 }
-
 .available {
     margin-top: 0.25rem;
     color: #919191;
     font-size: 0.75rem;
 }
-
 .boosters {
     margin-top: 3rem;
     padding: 0 1rem;
 }
-
 .boosters-title {
     margin-bottom: 1rem;
     padding: 0 0.3rem;
 }
-
 .boosters-buttons {
     width: 100%;
     border-radius: 15px;
@@ -358,25 +303,21 @@ body {
     background-color: rgba(218, 218, 218, 0.2);
     border: 2px solid rgba(218, 218, 218, 0.02);
 }
-
 .boosters-button {
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-
 .boosters-button-detail {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-
 .boosters-button-data {
     display: flex;
     align-items: center;
 }
-
 .boosters-button-image {
     background-color: rgba(218, 218, 218, 0.1);
     border: 2px solid rgba(218, 218, 218, 0.01);
@@ -389,7 +330,6 @@ body {
     margin-right: 1rem;
     border-radius: 15px;
 }
-
 .boosters-button-detail h4 {
     margin-bottom: 0.25rem;
     font-weight: 300;
@@ -399,20 +339,15 @@ body {
 .boosters-button-data  p{
     color: #c1c1c1aa;
 }
-
 .boosters-button-data h5{
     font-size: 1rem;
 }
-
 .m-r-25 {
     margin-right: 0.25rem;
 }
-
 .m-b-1 {
     margin-bottom: 1rem;
 }
-
-
 .buy-skins {
     margin-top: 3rem;
 }
@@ -432,24 +367,11 @@ body {
     justify-content: space-between;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 /* guid styles */
-
 .guid {
     background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 100%);
     overflow-y: hidden;
 }
-
 .guid-social {
     display: flex;
     justify-content: space-between;
@@ -457,7 +379,6 @@ body {
     color: #ffffff;
     padding: 0 3rem;
 }
-
 .guid-social a {
     display: flex;
     align-items: center;
@@ -469,7 +390,6 @@ body {
 .guid-social a svg {
     margin-right: 0.25rem;
 }
-
 .guid-content {
     margin-top: 4rem;
     color: #ffffff;
@@ -477,11 +397,9 @@ body {
     flex-direction: column;
     align-items: center;
 }
-
 .guid-title {
     margin-bottom: 4rem;
 }
-
 .guid-help-detail {
     display: flex;
     align-items: center;
@@ -504,7 +422,6 @@ body {
     justify-content: center;
     align-items: center;
 }
-
 .guid-button a,
 .frens-invite-button {
     display: flex;
@@ -518,22 +435,6 @@ body {
     border-radius: 15px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* frens styles */
 .frens {
     overflow-y: scroll!important;
@@ -544,7 +445,6 @@ body {
     color: #ffffff;
     padding-bottom: 4rem;
 }
-
 .frens-main  {
     margin: 2rem 0;
     display: flex;
@@ -552,15 +452,12 @@ body {
     justify-content: center;
     align-items: center;
 }
-
 .frens-count {
     margin-bottom: 1.25rem;
     font-size: 2rem;
     font-weight: bold;
     
 }
-
-
 .frens-total-earn {
     cursor: pointer;
     display: flex;
@@ -572,7 +469,6 @@ body {
     border: 2px solid rgba(218, 218, 218, 0.02);
     padding: 0.75rem;
 }
-
 .frens-total-count {
     display: flex;
     justify-content: center;
@@ -582,11 +478,9 @@ body {
 .frens-total-count img {
     margin-left: 0.5rem;
 }
-
 .leaders {
     color: #c1c1c16e;
 }
-
 .frens-help, 
 .frens-list {
     padding: 1rem;
@@ -601,7 +495,6 @@ body {
 .frens-list-title {
     color: #ffffff;
 }
-
 .frens-help-box,
 .frens-list-box {
     width: 100%;
@@ -611,7 +504,6 @@ body {
     background-color: rgba(218, 218, 218, 0.2);
     border: 2px solid rgba(218, 218, 218, 0.02);
 }
-
 .frens-invite {
     cursor: pointer;
     display: flex;
@@ -619,23 +511,19 @@ body {
     align-items: center;
     width: 100%;
 }
-
 .frens-invite-button {
     position: fixed;
     bottom: 10px;
     width: 23.5rem;
 }
-
 .frens-help-content {
     padding: 1rem;
     display: flex;
     align-items: center;
 }
-
 .frens-help-image {
     margin-right: 0.75rem;
 }
-
 .fren-help-text h5 {
     font-size: 1rem;
     font-weight: 500;
@@ -646,28 +534,22 @@ body {
     display: flex;
     align-items: center;
 }
-
 .fren-help-text div img {
     margin-right: 0.25rem;
 }
-
-
 .fren-help-text div span {
     margin-right: 0.25rem;
 }
-
 .frens-open-detail {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 1rem 0;
 }
-
 .frens-open-detail a {
     color: #ffffff;
     font-weight: bold;
 }
-
 .frens-data {
     padding: 1rem;
 }
@@ -677,7 +559,6 @@ body {
     justify-content: space-between;
     align-items: center;
 }
-
 .frens-profile-photo {
     background-color: aquamarine;
     width: 3.5rem;
@@ -685,21 +566,17 @@ body {
     border-radius: 100%;
     margin-right: 0.75rem;
 }
-
 .frens-profile-data h4{
     margin-bottom: 0.25rem;
 }
-
 .frens-profile-data div{
     display: flex;
     align-items: center;
 }
-
 .frens-profile-data div img,
 .frens-profile-data div span {
     margin-right: 0.30rem;
 }
-
 .frens-data-count {
     display: flex;
     justify-content: center;
@@ -709,10 +586,6 @@ body {
 .frens-data-count span{
     margin-right: 0.25rem;
 }
-
-
-
-
 
 /* earn styles */
 .earn {
@@ -724,7 +597,6 @@ body {
     color: #ffffff;
     padding-bottom: 4rem;
 }
-
 .earn-more {
     display: flex;
     flex-direction: column;
@@ -732,25 +604,14 @@ body {
     align-items: center;
     margin-top: 1rem;
 }
-
 .earn-more img {
     margin-bottom: 1.5rem;
 }
-
 .earn-more h3 {
     font-size: 1.5rem;
 }
 
-
-
-
-
-
-
-
-
 /* login styles */
-
 .login-page {
     overflow-y: scroll!important;
     background: linear-gradient(0deg, rgba(241,158,54,1) 2%, rgb(0, 0, 0) 45%);
@@ -759,14 +620,12 @@ body {
     color: #ffffff;
     padding-bottom: 4rem;
 }
-
 .login-coins,
 .login-page-detail {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .login-page-detail  {
     margin-top: 1rem;
     font-size: 1rem;
@@ -776,7 +635,6 @@ body {
     font-size: 2rem;
     margin-left: 1rem;
 }
-
 .login-form {
     margin-top: 3rem;
     padding: 0 2rem;
@@ -804,7 +662,6 @@ body {
     color: #ffffff;
     border-radius: 10px;
 }
-
 .submit-button {
     border: none;
     outline: none;
